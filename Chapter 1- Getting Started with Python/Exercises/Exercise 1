@@ -1,0 +1,24 @@
+#Exercise 1: Print Strings
+print("Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are")
+
+#Exercise 2: Print the Version of Python
+import sys
+print("phyton version")
+print(sys.version)
+
+#Exercise 3: Print date and Time 
+import datetime
+now = datetime.datetime.now()
+print("Time and Date")
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
+
+#Exercise 4: Strings Concatination
+uni = "bathspa"
+program = "CC Year 1"
+group = "2"
+print("uni:", uni,"program:", program, "group:", group)
+
+#Exercise 5: Compute area of Circle 
+from math import pi
+r = float(input ("Radius of the circle:"))
+print ("Area of the circle with radius " + str(r) + "is:" + str(pi * r**2))
