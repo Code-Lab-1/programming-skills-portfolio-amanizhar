@@ -1,0 +1,34 @@
+#Exercise 1: Variables
+msg = "I'm studying Creative computing"
+print(msg)
+
+msg = "Sir usman is my teacher"
+print(msg)
+
+#Exercise 2: Variables
+print('Aman Izhar says, "tough times do not last')
+print('only tough people do"')
+
+#Exercise 3: Stripping Names
+
+name = "\tAman Izhar\n"
+
+print("Unmodified:")
+print(name)
+
+print("\nUsing lstrip():")
+print(name.lstrip())
+
+print("\nUsing rstrip():")
+print(name.rstrip())
+
+print("\nUsing strip():")
+print(name.strip())
+
+
+#Exercise 4: Favorite Number 
+
+fav_num = 21
+msg = f"My favorite number is {fav_num}."
+
+print(msg)
